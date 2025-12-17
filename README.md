@@ -33,10 +33,13 @@ This project demonstrates core Java programming concepts, object-oriented design
 - Scanner class for user input  
 - ArrayList for data storage  
 - Spring Tool Suite (STS)  
+- GitHub for version control
 
 ---
 
 ## Project Structure
+
+```
 StudentInformationSystem/
 ├── README.md
 ├── src/
@@ -49,12 +52,13 @@ StudentInformationSystem/
 │ ├── Project_Documentation.md
 │ └── Screenshots/
 └── test_data/
-└── sample_student.txt
+    └── sample_student.txt
+```
 
 ---
 
 ## Setup & Installation
-1. Install JDK 8 or higher on your system  
+1. Install JDK 8  
 2. Open Spring Tool Suite  
 3. Import the project as a **Java Project**  
 4. Ensure all Java files are inside the `src` folder  
