@@ -156,19 +156,14 @@ Student-Information-System/
 
 ## 11. Explanation of How Technical Requirements Are Met
 
- Requirement                   |                       Implementation 
---------------------------------------------------------------------------------------
- Student class with attributes     | Implemented in `Student.java` with proper encapsulation
-  
- Menu-driven interface             | Implemented in `StudentInformationSystem.java` using Scanner 
- 
- Add/View/Update/Delete            | Implemented in `StudentManager.java` 
- 
- Search functionality              | Search by student ID using loops 
- 
- Data validation                   | Implemented in `ValidationUtils.java` 
- 
- Data persistence                  | Managed using ArrayList 
+| Requirement                       |                       Implementation                               |
+|-----------------------------------|--------------------------------------------------------------------|
+| Student class with attributes     | Implemented in `Student.java` with proper encapsulation         |
+| Menu-driven interface             | Implemented in `StudentInformationSystem.java` using Scanner| 
+| Add/View/Update/Delete            | Implemented in `StudentManager.java`                          |  
+| Search functionality              | Search by student ID using loops                                   |
+| Data validation                   | Implemented in `ValidationUtils.java`                         |
+| Data persistence                  | Managed using ArrayList                                            |
 
 ---
 
@@ -176,15 +171,12 @@ Student-Information-System/
 
 ### Sample Test Cases
 
-Test Case | Input | Expected Output 
--------------------------------------------------------------------
- Add Student | Valid details | Student added successfully |
- 
- Invalid Age | -5 | Invalid age message | 
- 
- Search Student	|  Existing ID	   |  Student details displayed
- 
- Delete Student |   Valid ID  |  Student deleted successfully 
+|Test Case         | Input          | Expected Output               |
+|------------------|----------------|-------------------------------|  
+| Add Student      | Valid details  | Student added successfully    | 
+| Invalid Age      | -5             | Invalid age message           | 
+| Search Student   | Existing ID	|  Student details displayed    |
+| Delete Student   | Valid ID       |  Student deleted successfully | 
 
 ---
 
