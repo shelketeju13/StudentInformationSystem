@@ -50,7 +50,7 @@ StudentInformationSystem/
 │ └── ValidationUtils.java
 ├── docs/
 │ ├── Project_Documentation.md
-│ └── Screenshots/
+│ 
 └── test_data/
     └── sample_student.txt
 ```
