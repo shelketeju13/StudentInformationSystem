@@ -50,7 +50,7 @@ The Student Information System is a console-based Java application developed as 
 ## 6. Project Structure
 
 ```
-Student-Information-System/
+StudentInformationSystem/
 │
 ├── README.md
 ├── src/
